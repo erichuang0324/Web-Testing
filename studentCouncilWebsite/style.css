@@ -1,0 +1,45 @@
+.Top-bar{
+    width: 100%;
+}
+.header{
+    padding: 80px;
+    text-align: center;
+    background: linear-gradient(120deg, #2196f3 50%, #8e24aa 80%);
+
+    color: white;
+    font-family: "Montserrat", serif;
+
+}
+.header h1{
+    font-size: 50px;
+}
+#version{
+    font-size: 20px;
+    color: blue;
+}
+.navbar{
+    background: linear-gradient(90deg, #42a5f5 0%, #8e24aa 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Consolas, serif;
+    overflow: hidden;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: black;
+    transform: translateY(-2px) scale(1.2);
+    translate
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+}
