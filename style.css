@@ -1,5 +1,15 @@
 .Top-bar{
     width: 100%;
+    background: linear-gradient(90deg, #8fd3f4 0%, #84fab0 100%);
+    color: #155263;
+    text-align: center;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 600;
+    padding: 10px 0;
+    font-size: 1.2em;
+
+    box-shadow: 0 2px 8px rgba(100, 150, 200, 0.10);
+
 }
 .header{
     padding: 80px;
@@ -42,3 +52,4 @@ body{
     padding: 0;
     background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
 }
+
