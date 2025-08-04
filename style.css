@@ -7,9 +7,7 @@
     font-weight: 600;
     padding: 10px 0;
     font-size: 1.2em;
-
     box-shadow: 0 2px 8px rgba(100, 150, 200, 0.10);
-
 }
 .header{
     padding: 80px;
@@ -52,4 +50,5 @@ body{
     padding: 0;
     background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
 }
+
 
