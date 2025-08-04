@@ -30,7 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Consolas, serif;
+    font-family: Montserrat, serif;
     overflow: hidden;
 }
 .navbar a{
@@ -79,6 +79,14 @@ body{
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     width: 90%;
 }
-
-
-
+.site-footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: Montserrat, serif;
+    padding: 15px 10px;
+}
+.site-footer p{
+    margin: 0;
+}
