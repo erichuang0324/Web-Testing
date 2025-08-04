@@ -46,9 +46,24 @@
     transform: translateY(-2px) scale(1.2);
 }
 body{
+    text-align: center;
     margin: 0;
     padding: 0;
     background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
 }
+.recent-gallery{
+    font-family: "Montserrat", serif;
+    font-size: 14px;
+    display: inline-block;
+    border: 5px solid  #4facfe;
+    margin: 50px auto;
+    max-width: 900px;
+    border-radius: 15px;
+    background-color: white;
+    padding:5px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    width: 90%;
+}
+
 
 
