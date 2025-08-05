@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/style.css">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+    <title>MDID Student Council Website</title>
+    <link rel="icon" type="image/jpeg" href="/firstTest/images/mouse.jpg">
+</head>
+<body>
+<div class="header">
+    <h1>Student Council</h1>
+    <h1 id="version">EARLY ALPHA WEBSITE</h1>
+    <p>Created by JC ERIC</p>
+</div>
+<div id="navbar"></div>
+<!-- This section is the start of the main page -->
+
+<!-- This section is the end of the main page -->
+<script>
+    fetch("/firstTest/navbar.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("navbar").innerHTML = data;
+        })
+</script>
+<footer class="site-footer">
+    <p>Made with care by the MDID Student Council IT team😊</p>
+</footer>
+</body>
+</html>

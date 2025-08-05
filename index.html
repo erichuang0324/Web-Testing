@@ -18,13 +18,7 @@
         <h1 id="version">EARLY ALPHA WEBSITE</h1>
         <p>Created by JC ERIC</p>
     </div>
-    <div class="navbar">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="events.html">Events</a>
-        <a href="#">About</a>
-        <a href="#">Contact us</a>
-    </div>
+    <div id="navbar"></div>
     <!-- This section is the start of the main page -->
     <section class="welcome">
         <h1> Welcome to the offical Student Council Website of MDID👋</h1>
@@ -37,6 +31,13 @@
         </a>
         <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
     </section>
+    <script>
+        fetch("/navbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("navbar").innerHTML = data;
+            })
+    </script>
     <!-- This section is the end of the main page -->
     <footer class="site-footer">
         <p>Made with care by the MDID Student Council IT team😊</p>

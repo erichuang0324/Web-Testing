@@ -25,26 +25,6 @@
     font-size: 20px;
     color: blue;
 }
-.navbar{
-    background: linear-gradient(90deg, #42a5f5 0%, #8e24aa 100%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Montserrat, serif;
-    overflow: hidden;
-}
-.navbar a{
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-}
-.navbar a:hover{
-    background-color: black;
-    transform: translateY(-2px) scale(1.2);
-}
 body{
     text-align: center;
     margin: 0;
